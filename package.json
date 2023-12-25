@@ -1,0 +1,77 @@
+{
+  "name": "unit-converter",
+  "version": "1.0.0",
+  "productName": "Unit Converter",
+  "main": "electron.js",
+  "description": "Unit Converter Developed By RenoSoftwares",
+  "author": {
+    "name": "Bilal Ahmad parary",
+    "email": "parraybilal34@gmail.com"
+  },
+  "scripts": {
+    "ng": "ng",
+    "start": "ng build && electron .",
+    "build-prod": "ng build --configuration production",
+    "build-reg": "ng build --configuration regression",
+    "build-l_QA": "ng build --configuration localQA",
+    "build-dev": "ng build --configuration development",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^16.2.10",
+    "@angular/common": "^16.2.10",
+    "@angular/compiler": "^16.2.10",
+    "@angular/core": "^16.2.10",
+    "@angular/forms": "^16.2.10",
+    "@angular/localize": "^16.2.10",
+    "@angular/platform-browser": "^16.2.10",
+    "@angular/platform-browser-dynamic": "^16.2.10",
+    "@angular/router": "^16.2.10",
+    "@auth0/angular-jwt": "^5.1.1",
+    "@ng-bootstrap/ng-bootstrap": "^15.1.2",
+    "@sweetalert2/ngx-sweetalert2": "^12.2.0",
+    "axios": "^1.2.0",
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.1",
+    "crypto-js": "^4.1.1",
+    "electron-localshortcut": "^3.2.1",
+    "jquery": "^3.7.1",
+    "jwt-decode": "^3.1.2",
+    "popper.js": "^1.16.1",
+    "rxjs": "~7.5.0",
+    "sweetalert2": "^11.7.32",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.13.3"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^16.2.6",
+    "@angular/cli": "~16.2.6",
+    "@angular/compiler-cli": "^16.2.10",
+    "@types/crypto-js": "^4.1.1",
+    "@types/jasmine": "~4.3.0",
+    "@types/jquery": "^3.5.26",
+    "electron": "^27.0.4",
+    "electron-builder": "^24.6.4",
+    "jasmine-core": "~4.5.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.0.0",
+    "typescript": "~5.1.6"
+  },
+  "build": {
+    "appId": "com.converter.unitconverter",
+    "mac": {
+      "icon": "assets/images/current.png"
+    },
+    "win": {
+      "icon": "assets/icons/current.ico"
+    },
+    "linux": {
+      "icon": "assets/images/current.png"
+    }
+  }
+}
