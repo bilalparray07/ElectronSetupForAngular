@@ -15,18 +15,17 @@ function createWindow() {
   });
   // Set the application icon for Windows
   if (process.platform === "win32") {
-    win.setIcon(path.join(__dirname, "assets/icons/current.ico"));
+    win.setIcon(path.join(__dirname, "assets/icons/icon.png"));
   }
 
   // Set the application icon for macOS
   if (process.platform === "darwin") {
-    app.dock.setIcon(path.join(__dirname, "assets/images/current.png"));
+    app.dock.setIcon(path.join(__dirname, "assets/icons/icon.png"));
   }
 
   // Set the application icon for Linux
   if (process.platform === "linux") {
-   
-    win.setIcon(path.join(__dirname, "assets/images/current.png"));
+    win.setIcon(path.join(__dirname, "assets/icons/icon.png"));
   }
   win.removeMenu();
   win.loadFile("index.html");

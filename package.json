@@ -65,13 +65,13 @@
   "build": {
     "appId": "com.converter.unitconverter",
     "mac": {
-      "icon": "assets/images/current.png"
+      "icon": "assets/icons/icon.png"
     },
     "win": {
-      "icon": "assets/icons/current.ico"
+      "icon": "assets/icons/icon.png"
     },
     "linux": {
-      "icon": "assets/images/current.png"
+      "icon": "assets/icons/icon.png"
     }
   }
 }
