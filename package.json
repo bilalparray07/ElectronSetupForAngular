@@ -71,7 +71,8 @@
       "icon": "assets/icons/icon.png"
     },
     "linux": {
-      "icon": "assets/icons/icon.png"
+      "icon": "assets/icons/icon.png",
+      "target": "deb"
     }
   }
 }
